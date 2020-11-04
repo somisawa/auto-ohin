@@ -9,8 +9,8 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='auto-ohin',
-    packages=['auto-ohin'],
+    name='auto_ohin',
+    packages=['auto_ohin'],
 
     version='0.1.0',
 
@@ -25,7 +25,7 @@ setup(
 
     description='You can ohin on the input pdf easily.',
     long_description=long_description,
-    long_description_content_type='text/markdown'
+    long_description_content_type='text/markdown',
     keywords='auto-ohin auto_ohin autoohin',
 
     classifiers=[

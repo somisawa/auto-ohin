@@ -3,3 +3,6 @@
 *.pyc
 __pycache__
 .DS_Store
+build/
+dist/
+auto_ohin.egg-info/
