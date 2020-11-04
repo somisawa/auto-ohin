@@ -2,7 +2,7 @@ import os
 
 from typing import List
 
-from overlay_pdf_maker import overlay_pdf_maker
+from auto_ohin.overlay_pdf_maker import overlay_pdf_maker
 
 from PyPDF4 import PdfFileReader, PdfFileWriter
 

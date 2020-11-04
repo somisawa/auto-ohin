@@ -32,4 +32,11 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3.7',
     ],
+
+    entry_points={
+        "console_scripts": [
+            "auto-ohin = auto_ohin.auto_ohin:main",
+            "auto_ohin = auto_ohin.auto_ohin:main"
+        ]
+    }
 )

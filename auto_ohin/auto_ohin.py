@@ -1,7 +1,7 @@
 import json
 import _jsonnet
 
-from ohin import ohin
+from auto_ohin.ohin import ohin
 
 
 def ohin_from_config(config_path: str) -> None:
@@ -9,6 +9,13 @@ def ohin_from_config(config_path: str) -> None:
     json_dict = json.loads(json_str)
 
     ohin(**json_dict)
+
+
+def main():
+    import sys
+    config_path = sys.argv[1]
+
+    ohin_from_config(config_path)
 
 
 if __name__ == "__main__":
