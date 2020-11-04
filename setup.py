@@ -35,8 +35,8 @@ setup(
 
     entry_points={
         "console_scripts": [
-            "auto-ohin = auto_ohin.auto_ohin:main",
-            "auto_ohin = auto_ohin.auto_ohin:main"
+            "auto-ohin = auto_ohin.main:main",
+            "auto_ohin = auto_ohin.main:main"
         ]
     }
 )

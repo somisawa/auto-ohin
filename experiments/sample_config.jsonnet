@@ -1,4 +1,4 @@
-local root = "path/to/root"; # row path
+local root = "path/to/"; # row path
 local pathgen(path) = root + path;
 {
     "input_path": pathgen("input.pdf"), # pdf path on which you want to sign
