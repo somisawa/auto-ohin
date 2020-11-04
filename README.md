@@ -8,7 +8,8 @@ You can ohin on the input pdf easily.
 
 ## Requirement
 
-```python = "^3.7"
+```python
+python = "^3.7"
 Pillow = "^8.0.1"
 reportlab = "^3.5.55"
 PyPDF4 = "^1.27.0"
