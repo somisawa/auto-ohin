@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "auto-ohin"
+version = "0.1.0"
+description = ""
+authors = ["mitawaut <so.misawa.research@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+Pillow = "^8.0.1"
+reportlab = "^3.5.55"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
