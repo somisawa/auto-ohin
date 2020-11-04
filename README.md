@@ -21,7 +21,7 @@ jsonnet = "^0.16.0"
 ### 1. First you only need config files like below.
 
 ```jsonnet
-local root = "path/to/root"; # row path
+local root = "path/to/root/"; # row path
 local pathgen(path) = root + path;
 {
     "input_path": pathgen("input.pdf"), # pdf path on which you want to sign
