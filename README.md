@@ -1,6 +1,10 @@
 # auto-ohin
 
-You can ohin on the input pdf easily.
+You can *ohin* on the input pdf easily. In other words, you can put an image such as e-signature or e-imprinting on pdf.
+*ohin* = imprinting, signature
+
+## Keywords
+e-signature, 電子署名, 電子押印, 電子印鑑, 押印廃止
 
 ## Installation
 
