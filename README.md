@@ -33,7 +33,9 @@ local pathgen(path) = root + path;
 ```
 
 ### 2. Run simply in commandlines.
-`auto-ohin path/to/config.jsonnet`
+```bash
+auto-ohin path/to/config.jsonnet
+```
 
 ## Author
 
