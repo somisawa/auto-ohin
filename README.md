@@ -37,6 +37,9 @@ local pathgen(path) = root + path;
 auto-ohin path/to/config.jsonnet
 ```
 
+## Samples
+All input and output samples are available in [experiments](https://github.com/MitawaUT/auto-ohin/tree/main/experiments)
+
 ## Author
 
 * Sota Misawa (mitawaut)
