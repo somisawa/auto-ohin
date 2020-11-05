@@ -34,7 +34,8 @@ local pathgen(path) = root + path;
     "img_path": pathgen("inkan.png"), # img path which you want to put on the pdf
     "obj_pages": [1, 3], # List of page numbers you want to put. This is 1-indexed.
     "position": [147, 225], # The position List(mm)[width, height] to put image. The origin point is the lower left corner.
-    "img_size": [20, 20] # List(px)[width, height] you want to resize.
+    "img_size": [20, 20], # List(px)[width, height] you want to resize.
+    "pdf_size": "A4" # Now A0~A5 are available.
 }
 ```
 
