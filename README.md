@@ -15,10 +15,6 @@ e-signature, 電子署名, 電子押印, 電子印鑑, 押印廃止
 
 ```python
 python = "^3.7"
-Pillow = "^8.0.1"
-reportlab = "^3.5.55"
-PyPDF4 = "^1.27.0"
-jsonnet = "^0.16.0"
 ```
 
 ## Usage
